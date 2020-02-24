@@ -35,7 +35,8 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "app/",
+            "Cxp\\Avatar\\": "packages/cxp/avatar/src/"
         },
         "classmap": [
             "database/seeds",
@@ -47,7 +48,8 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "Tests\\": "tests/",
+            "Cxp\\Avatar\\": "packages/cxp/avatar/src/"
         }
     },
     "minimum-stability": "dev",
