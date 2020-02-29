@@ -49,6 +49,9 @@ Route::prefix('v1')
                     // 编辑登录用户信息
                     Route::patch('user', 'UsersController@update')
                     ->name('user.update');
+                    // 分类列表
+                    Route::get('categories', 'CategoriesController@index')
+                    ->name('categories.index');
                 });
             });
     });
